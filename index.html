@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span><a target="_blank" href="https://www.stemegypt.net/"><img src="images/STEM Logo.png" id="logo" alt="STEM October" title="STEM October"></a></span>
+        <span id="title" onClick="window.location.reload();">School Table</span>
+        <span id="time" title="24-Hour Format"></span>
+    </header>
+    <main id="main">
+        <div>
+            <img id="subject">
+            <div id="period-text"></div>
+        </div>
+        <div class="buttons">
+            <p class="buttons">Try other subjects:</p>
+            <button onclick="automatic()" class="buttons">Automatic</button>
+            <button onclick="arabic(1)" class="buttons">Arabic</button>
+            <button onclick="english(1)" class="buttons">English</button>
+            <button onclick="math(1)" class="buttons">Math</button>
+            <button onclick="science(1)" class="buttons">Science</button>
+            <button onclick="social(1)" class="buttons">Social Studies</button>
+            <button onclick="german(1)" class="buttons">German</button>
+            <button onclick="computer(1)" class="buttons">Computer</button>
+            <button onclick="art(1)" class="buttons">Art</button>
+            <button onclick="pe(1)" class="buttons">P.E.</button>
+            <button onclick="activity(1)" class="buttons">Activity</button>
+            <button onclick="religion(1)" class="buttons">Religion</button>
+            <button onclick="breakF()" class="buttons">Break</button>
+            <button onclick="home()" class="buttons">Home</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
