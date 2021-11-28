@@ -20,9 +20,9 @@ function updateDayTime() {
     }
     day = date.getDay();
     tmp_time = document.getElementById('time').innerHTML;
-    time = `The time is: ${hour}:${minute}`
+    time = `${hour}:${minute}`
     if(tmp_time != time) {
-        document.getElementById('time').innerHTML = time;
+        document.getElementById('time').innerHTML = `The time is: ${time};
     }
 }
 
