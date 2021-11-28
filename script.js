@@ -22,7 +22,7 @@ function updateDayTime() {
     tmp_time = document.getElementById('time').innerHTML;
     time = `${hour}:${minute}`
     if(tmp_time != time) {
-        document.getElementById('time').innerHTML = `The time is: ${time};
+        document.getElementById('time').innerHTML = `The time is: ${time}`;
     }
 }
 
